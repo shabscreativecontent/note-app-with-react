@@ -104,7 +104,7 @@ export default function App() {
             {merge: true}
             )
         } catch (error) {
-            console.log(error);
+            console.error(error);
         }
     }
 
